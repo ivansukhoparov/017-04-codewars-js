@@ -1,5 +1,5 @@
 /*
-Count of positives / sum of negatives
+Count of positives and sum of negatives
 
 Given an array of integers.
 
