@@ -8,6 +8,8 @@ Example
 ['hello', 'world', 'this', 'is', 'great']  =>  'hello world this is great'
 */
 
+// old solution
+
 function smash(words) {
     let sentence = ''
     words.forEach((word, index) => {
@@ -17,4 +19,16 @@ function smash(words) {
         }
     })
     return sentence;
+};
+
+// new solution
+
+function smash(words) {
+
+    let sentence = '';
+    words.forEach((el) => {
+        sentence += el;
+        sentence += ' ';
+    })
+    return sentence.substring(0, sentence.length - 1)
 };
