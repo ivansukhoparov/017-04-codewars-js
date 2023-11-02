@@ -21,7 +21,7 @@ String.prototype.toJadenCase = function () {
     return sentence.substring(0, sentence.length - 1)
 };
 
-//test
 
+// For test
 const str = "How can mirrors be real if our eyes aren't real";
 console.log(str.toJadenCase())
