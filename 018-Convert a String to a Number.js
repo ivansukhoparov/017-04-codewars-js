@@ -19,3 +19,13 @@ Examples
 const stringToNumber = function (str) {
     return Number(str);
 }
+
+// Another solutions
+
+stringToNumber = function (str) {
+    return parseInt(str);
+}
+
+stringToNumber = function (str) {
+    return +str;
+}
