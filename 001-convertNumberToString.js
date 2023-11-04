@@ -16,3 +16,10 @@ Examples (input --> output):
 function numberToString(num) {
     return `${num}`;
 }
+
+
+//Anothr solution
+
+function numberToString(num) {
+    return String(num);
+}
