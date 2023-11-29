@@ -16,3 +16,9 @@ function solution(str){
     }
     return res.join("");
 }
+
+// better solution
+
+function solutionAlt(str){
+    return str.split('').reverse().join('');
+}
