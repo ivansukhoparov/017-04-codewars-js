@@ -1,0 +1,22 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+.DS_Store
+.idea
+.env
+.vscode
+.babelrc
+.stylelintrc.json
+.eslintrc.js
+*.lock
+*.ai
+*.log
+*.pdf
+*.psd
+*.sublime*
+dist
+node_modules/
+npm-debug.*
+Thumbs.db
