@@ -19,3 +19,9 @@ function removeEveryOther(arr) {
     }
     return newArr;
 }
+
+function removeEveryOther_2(arr){
+    return arr.filter(function(elem, index) {
+        return index % 2 === 0;
+    });
+}
