@@ -26,3 +26,5 @@ function DNAtoRNA(dna) {
     });
     return rna;
 }
+
+console.log( DNAtoRNA("GCAT"))
