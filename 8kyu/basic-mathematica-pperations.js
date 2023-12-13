@@ -15,13 +15,13 @@
 
 // SOLUTION:
 function basicOp(operation, value1, value2) {
-    if (operation == '+') {
+    if (operation === '+') {
         return value1 + value2;
-    } else if (operation == '-') {
+    } else if (operation === '-') {
         return value1 - value2;
-    } else if (operation == '*') {
+    } else if (operation === '*') {
         return value1 * value2;
-    } else if (operation == '/') {
+    } else if (operation === '/') {
         return value1 / value2;
     }
 }
