@@ -33,3 +33,12 @@ function sum (numbers) {
 }
 
 console.log(sum([1, 5.2, 4, 0, -1]));
+
+
+// 2 SOLUTION:
+
+function sum_2(numbers) {
+    return numbers.reduce((a, b) => a + b, 0);
+}
+
+console.log(sum_2([1, 5.2, 4, 0, -1]));
